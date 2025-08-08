@@ -1,4 +1,4 @@
-# RNBO-Pi-Pots
+# RNBO-RPi-Pots
 A short, simple tutorial for using Potentiometers with RNBO on the Raspberry Pi.
 
 Unlike boards like the Arduino, the Raspberry Pi doesn't have an Analogue-to-Digital (ADC) converter to convert analogue signals to digital. In this article we'll learn how to use an ADC integrated circuit chip with the RPi to read in multiple Potentiometers at once and control a RNBO patcher.
