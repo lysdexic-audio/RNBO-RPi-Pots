@@ -41,9 +41,9 @@ pip install --upgrade pip gpiozero lgpio python-osc
 
 Now `sudo poweroff` the RPi, and disconnect the power. Let's create our circuit:
 
-![MCP3008 Pinout](./mcp3008pinout.png)
+![MCP3008 Pinout](./MCP3008_Pinout.png)
 
-![Breadboard Circuit](./RNBORPi_2Pots.png)
+![Breadboard Circuit](./RNBO-RPi-2Pots.png)
 
 1. `3.3v` (red) from the RPi connects to the `+V` bus rail
 2. `GND` (black) from the RPi connects to the `ground` bus rail
@@ -67,7 +67,7 @@ Switch the Pi back on and at the terminal run the script:
 ```bash
 cd RNBO-Pots
 source .venv/bin/activate
-python RNBOPi_2Pots.py
+python RNBO-RPi-2Pots.py
 ```
 
 Now you should be able to wiggle some knobs and do some filter sweeps!
